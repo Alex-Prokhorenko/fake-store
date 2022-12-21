@@ -1,12 +1,13 @@
+import {productModel} from "../models/models";
 
 interface productProps {
-    title: string
+    product: productModel
 }
 
-const Product = ({title}: productProps) => {
+const Product = ({product}: productProps) => {
     return (
         <div>
-            <p>{title}</p>
+            <p>{product.title}</p>
         </div>
     )
 }
