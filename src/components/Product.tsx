@@ -6,7 +6,7 @@ interface productProps {
 
 const Product = ({product}: productProps) => {
     return (
-        <div>
+        <div className='w-1/2 mx-auto border border-stone-900'>
             <p>{product.title}</p>
         </div>
     )

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Product from "./components/Product";
+import Product from './components/Product';
 import {product} from './data/storage';
 
 function App() {
