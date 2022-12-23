@@ -6,7 +6,7 @@ import {products} from './data/storage';
 function App() {
     return (
         <div className='App'>
-            {products.map( product => <Product product={product}/> )}
+            {products.map( product => <Product key={product.id} product={product}/> )}
         </div>
     );
 }
